@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"dir="ltr">
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+		<title>Registration | Catz and Dogz</title>
+		<meta name="description"content="The registration page for the owners and pet sitters on the Catz and Dogz business"/>
+		<meta name="copyright" content="Copyright Carmen Liao 2019">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="style.css"  media="all">
+        
+        <!--Links the javascript file with this page-->
+        <script src="myscripts.js"></script>
+        
+         <!--The url to retrieve the font family for the heading-->
+		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	</head>
+    
+    <body>
+        <div id="container">
+			<header>
+                <h1>Catz and Dogz</h1>
+			</header>
+            
+            <nav>
+				<ul>
+					<li class = "center"><a href="index.html">Home</a></li>
+					<li><a href="services.html">Our Services</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="subscriber.html">Register</a></li>
+                </ul>
+			</nav>
+        
+            <article>
+                <div class = "header">
+                    <h1 class = "ourservices">Registration</h1>
+                </div>
+
+                <form class = "left" name = "confirm" onsubmit = "return validateForm()" method = "post">
+                    <p class = "details">
+                        <label for="name">First name</label>
+                        <br>
+                        <input type = "text" name = "code" id = "name">
+                    </p>
+
+                    <p class = "details">
+                        <label for="name">Last name</label>
+                        <br>
+                        <input type = "text" name = "code3" id = "name">
+                    </p>
+
+                    <p class = "details">
+                        <label for="name">Address</label>
+                        <br>
+                        <input type = "text" name = "code1" id = "email">
+                    </p>
+
+                    <p class = "details">
+                        <label for="name">Credit card number</label>
+                        <br>
+                        <input type = "text" name = "code2" id = "email">
+                    </p>
+
+                    <p class = "submit">
+                        <button id = "submit" type="submit" name="send">Submit</button>
+                    </p>
+                </form>
+            </article>
+        
+        </div>
+    </body>
+</html>

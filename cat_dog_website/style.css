@@ -1,0 +1,284 @@
+header,
+nav,
+article,
+footer {
+	display: block;
+}
+
+/**Page Layout**/
+body {
+	font-family: "Arial", "Lucida Grande", sans-serif;
+	font-size: 18px; 
+    background-color: lightyellow;
+}
+
+div#container {
+	width: 900px;
+	margin: auto;
+	overflow: auto;
+    border: double;
+}
+
+header {
+	padding: 10px 20px;
+	background-color: #fff2cc;
+	text-align: center;
+    border-bottom: double;
+}
+
+header h1{
+	font-family: "Fascinate Inline", cursive;
+	font-weight: bold;
+	font-size: 3em;
+	color: black;
+}
+
+h1.ourservices{
+	font-family: "Bell MT", "Lucida Grande", sans-serif;
+	font-size: 1.6em;
+	color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+header h2{
+	font-family: "Bell MT", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	color: #191919;
+}
+
+h3{
+	font-family: "Bell MT", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+}
+
+nav {
+	padding: 10px 10px 10px 55px;
+	background-color: #D0D0D0;
+	overflow: hidden; /*This makes sure nav wraps around the floated list*/
+}
+
+nav ul {
+	list-style: none; /*This removes the bullet from the list items*/
+	margin: 0;
+	padding: 0; /*These collapse the margin and padding*/
+	text-align: center;
+	float: left; /*This goes left and collapses the width to fit the links inside it*/
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0 4em 0 0; /*adds space between links in nav*/
+	padding: 0;
+	text-align: center;
+	float: left; /* The float:left puts the elements side by side and is a technique for laying out horizontal elements*/
+    font-size: 1em;
+}
+
+nav ul li.center {
+	list-style: none;
+	margin: 0 4em 0 0; /*adds space between links in nav*/
+	padding: 0;
+	text-align: center;
+	float: left; /* The float:left puts the elements side by side and is a technique for laying out horizontal elements*/
+    margin-left: 150px;
+    font-size: 1em;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+article {
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+
+article h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+}
+
+article p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	padding: 8px 10px;
+}
+	
+article h2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+#mission {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #191919;
+	margin: 10px;
+    text-align: center;
+}
+
+article h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	color: #191919;
+	margin: 10px;
+}
+
+footer{
+	padding: 0px 10px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #fff2cc;
+	font-size: 75%;
+}
+
+li {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	padding: 8px 10px;
+}
+
+img.corgi {
+    padding-left: 145px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*styling the google maps feature*/
+iframe{ 
+    padding-top: 30px;
+    padding-left: 143px;
+    padding-bottom: 20px;
+}
+
+p.address {
+    margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	padding: 8px 10px;
+
+}
+
+/*styling the question so it looks different to the answers*/
+span.question {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 8px 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #006699;
+}
+
+form.left {
+	width: auto;
+	padding-left: 200px;
+    margin-top: 20px;
+}
+
+div.header {
+	background-image: url("orange_web.jpg");
+	text-align:center;
+    padding-bottom: 10px;
+}
+
+img.center {
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+p.mission {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.9em;
+	padding: 8px 10px;
+    text-align: center;
+}
+
+div#contactus {
+    float: left;
+    padding-top: 30px;
+}
+
+label {
+	text-align: left;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: lighter;
+	padding-right: 440px;
+}
+
+input#name,
+input#email,
+input#message {
+	padding-left: 5px;
+    height: 35px;
+    width: 500px;
+	margin-top: 10px;
+}
+
+/*styling the submit button*/
+button#submit {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0,0,0,0.4);
+    color: white;
+	font-size: 0.7em;
+	border: 0.5px solid #A9A9A9;
+}
+
+table {
+    width: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    border: solid 1px #d0d0d0;
+}
+
+th.border, td.border {
+    border-left: solid 1px #d0d0d0;
+}
+
+article p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+}
+
+img.right {
+    padding-left: 40px;
+}
+
